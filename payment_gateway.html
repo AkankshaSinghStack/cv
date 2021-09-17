@@ -1,0 +1,40 @@
+<!doctype html>
+<head>
+		<title>PAYMENT GATEWAY</title>
+		<body>
+			
+			</style>
+			<form>
+				<h2 style="color: BLUE";>PAYMENT FORM</h3>
+					<p >Required Fields are Followed by *</p>
+					<p>Name:*<input type="text" name="name" required></p>
+					<fieldset>
+					<legend>Gender</legend>
+
+					<p>Male:<input type="radio" name="gender"></p>
+					<p>Female:<input type="radio" name="gender"></p>
+					</fieldset>
+					<p>Address:<textarea name="address" id="address" cols="50" rows="8"></textarea></p>
+					<p>Email: *<input type="email" name="email" id="email"required></p>
+					<p>Mobile no.<input type="number" name="mobile" id="mobile_number"></p>
+					<p>Pincode :<input type="number" name="pincode"id="pincode"></p>
+
+					<h2>Payment Information</h2>
+					<p>Card type:*<select name="card type" id="card_type--"required>
+						<option value="">--Select a card type--</option>
+						<option value="VISA">VISA</option>
+						<option value="rupay">RUPAY</option>
+						<option value="master card">MASTER CARD</option>
+					</select></p>
+					<p>
+						Card Number *<input type="number" name="card_number"id="card number"required>
+					</p>
+					<p>
+						Expiration Date: <input type="date" name="exp_date" id="">
+					</p>
+					<p>CVV <input type="password" name="cvv" id="cvv"></p>
+                      <input type="submit" value="Pay Now">
+			</form>
+		</body>
+	</head>
+	
